@@ -126,8 +126,8 @@ html {
 
 .seccion__heading {
   margin: 50px 0 15px 0;
-  font-size: 30px;
-  font-weight: 400;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 .seccion__texto {
