@@ -121,6 +121,7 @@ html {
   align-items: center;
   padding: 15px;
   background-color: var(--gris);
+  min-height: 431px;
 }
 
 .seccion__heading {
