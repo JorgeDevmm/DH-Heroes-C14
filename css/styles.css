@@ -121,7 +121,7 @@ html {
   align-items: center;
   padding: 15px;
   background-color: var(--gris);
-  min-height: 431px;
+  min-height: 401px;
 }
 
 .seccion__heading {
@@ -132,9 +132,15 @@ html {
 
 .seccion__texto {
   text-align: left;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
+@media (min-width: 768px) {
+  .seccion:nth-child(3) .seccion__texto,
+  .seccion:nth-child(4) .seccion__texto {
+    margin-bottom: 40px;
+  }
+}
 .seccion__enlace {
   background-color: var(--color-Principal);
   color: var(--blanco);
